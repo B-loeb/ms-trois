@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Photo Placeholder Credits
+# img1 secret lake
+Photo by <a href="https://unsplash.com/@jonah_geurs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonah Geurs</a> on <a href="https://unsplash.com/s/photos/dji-mini-3-pro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+# img2 tree w/road
+Photo by <a href="https://unsplash.com/@ernesto_petar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Petar Avramoski</a> on <a href="https://unsplash.com/s/photos/drone-photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+# img3 autumn w/lake
+Photo by <a href="https://unsplash.com/@davehoefler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dave Hoefler</a> on <a href="https://unsplash.com/s/photos/drone-photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+# img4 snow covered trees
+Photo by <a href="https://unsplash.com/es/@reaper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas Beckett</a> on <a href="https://unsplash.com/s/photos/drone-photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+# img5 shipwreck w/diver
+Photo by <a href="https://unsplash.com/@seefromthesky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ishan @seefromthesky</a> on <a href="https://unsplash.com/s/photos/drone-photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+# img6 construction site
+Photo by <a href="https://unsplash.com/@kctinman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shane McLendon</a> on <a href="https://unsplash.com/s/photos/drone-photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+# img7 seaside rooftops
+Photo by <a href="https://unsplash.com/@kruser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">T M</a> on <a href="https://unsplash.com/s/photos/drone-photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+# img8 rooftop inspection
+Photo by <a href="https://unsplash.com/@brendan_stephens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brendan Stephens</a> on <a href="https://unsplash.com/s/photos/drone-photography-real-estate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+# img9 bride on sandbar
+Photo by <a href="https://unsplash.com/@infectedluna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Asdrubal luna</a> on <a href="https://unsplash.com/s/photos/drone-photography-wedding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+# img10 drone w/mountains
+Photo by <a href="https://unsplash.com/@hansott?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hans Ott</a> on <a href="https://unsplash.com/s/photos/dji-mini-3-pro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   
+  
+  
