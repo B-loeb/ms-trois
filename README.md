@@ -91,6 +91,8 @@ Photo by <a href="https://unsplash.com/@brendan_stephens?utm_source=unsplash&utm
 Photo by <a href="https://unsplash.com/@infectedluna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Asdrubal luna</a> on <a href="https://unsplash.com/s/photos/drone-photography-wedding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 # img10 drone w/mountains
 Photo by <a href="https://unsplash.com/@hansott?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hans Ott</a> on <a href="https://unsplash.com/s/photos/dji-mini-3-pro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   
+# img11 dji setup
+Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/drone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    
   
   
