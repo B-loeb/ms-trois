@@ -1,17 +1,18 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import DATA from "../Data.jsx";
 
 const Service = () => {
   const cardItem = (item) => {
     return (
-      <div className="card" style={{width: "18rem"}}>
+      <div className="card my-5 py-4" key={item.id} style={{width: "18rem"}}>
           <img src={item.img} className="card-img-top" alt={item.title} />
-            <div className="card-body">
+            <div className="card-body text-center">
               <h5 className="card-title">{item.title}</h5>
               <p className="lead">${item.price}</p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
+              <NavLink to={`/services/${item.id}`} className="btn btn-outline-primary">
+                Buy Now
+              </NavLink>
             </div>
       </div>
     );
@@ -28,7 +29,9 @@ const Service = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row">{DATA.map(cardItem)}</div>
+        <div className="row justify-content-around">
+        {DATA.map(cardItem)}
+        </div>
       </div>
     </div>
   );
