@@ -1,5 +1,5 @@
 import React from "react";
-
+import Service from './Service'
 const Home = () => {
   return (
     <div>
@@ -90,6 +90,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <Service />
     </div>
   );
 };

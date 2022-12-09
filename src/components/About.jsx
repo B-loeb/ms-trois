@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className="col-md-6 d-flex justify-content-center">
             <img src="/assets/images/img11.jpg" alt="Drone Equiptment"
-            height="500px" />
+            height="430px" />
           </div>
         </div>
       </div>
