@@ -1,13 +1,24 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import { useState } from 'react';
 import DATA from '../Data';
 
 const ServiceDetail = () => {
+    const [cartBtn, setCartBtn] = useState("Add to Cart")
     {/* requires a service id from the service page */}
     const servid = useParams();
     const servDetail = DATA.filter(x=>x.id == servid.id)
     const service = servDetail[0];
     console.log(service);
+
+    const handleCart = (service) => {
+        if (cartBtn === "Add to Cart") {
+            setCartBtn("Remove from Cart")
+        }
+        else{
+            setCartBtn("Add to Cart")
+        }
+    }
 
   return (
     <>
@@ -21,7 +32,7 @@ const ServiceDetail = () => {
                 <hr />
                 <h2 className="my-4">${service.price}</h2>
                 <p className="lead">{service.desc}</p>
-                <button className="btn btn-outline-primary my-5">Add to Cart</button>
+                <button onClick={()=>handleCart(service)} className="btn btn-outline-primary my-5">{cartBtn}</button>
             </div>
         </div>
     </div>
