@@ -7,7 +7,7 @@ import Service from './components/Service'
 import Contact from './components/Contact'
 import { Redirect, Route, Switch } from 'react-router-dom';
 import ServiceDetail from './components/ServiceDetail';
-
+import Cart from './components/Cart';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/services" component={Service} />
         <Route exact path="/services/:id" component={ServiceDetail} />
+        <Route exact path="/cart" component={Cart} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Redirect to="/" />
