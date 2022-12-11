@@ -2,6 +2,9 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useState } from 'react';
 import DATA from '../Data';
+import { useDispatch } from 'react-redux';
+import {addItem, deleteItem} from '../redux/actions/index';
+
 
 const ServiceDetail = () => {
     const [cartBtn, setCartBtn] = useState("Add to Cart")
@@ -11,11 +14,17 @@ const ServiceDetail = () => {
     const service = servDetail[0];
     console.log(service);
 
+    //Store useDispatch in a variable
+    const dispatch = useDispatch()
+
+
     const handleCart = (service) => {
         if (cartBtn === "Add to Cart") {
+            dispatch(addItem(service))
             setCartBtn("Remove from Cart")
         }
         else{
+            dispatch(deleteItem(service))
             setCartBtn("Add to Cart")
         }
     }
