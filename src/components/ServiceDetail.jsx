@@ -8,7 +8,7 @@ import {addItem, deleteItem} from '../redux/actions/index';
 
 const ServiceDetail = () => {
     const [cartBtn, setCartBtn] = useState("Add to Cart")
-    {/* requires a service id from the service page */}
+    
     const servid = useParams();
     const servDetail = DATA.filter(x=>x.id == servid.id)
     const service = servDetail[0];
