@@ -11,7 +11,7 @@ const Service = () => {
               <h5 className="card-title">{item.title}</h5>
               <p className="lead">${item.price}</p>
               <NavLink to={`/services/${item.id}`} className="btn btn-outline-primary">
-                Buy Now
+                View More
               </NavLink>
             </div>
       </div>
