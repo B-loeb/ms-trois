@@ -69,7 +69,7 @@ const Login = () => {
                     required
                   />
                 </div>
-                <div className="mb-3 form-check">
+                {/* <div className="mb-3 form-check">
                   <input
                     type="checkbox"
                     className="form-check-input"
@@ -78,7 +78,7 @@ const Login = () => {
                   <label className="form-check-label" htmlFor="exampleCheck1">
                     Check me out
                   </label>
-                </div>
+                </div> */}
                 <button
                   type="submit"
                   className="btn btn-outline-primary w-100 mt-5"

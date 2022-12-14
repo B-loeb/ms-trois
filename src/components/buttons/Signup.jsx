@@ -25,7 +25,7 @@ const Signup = () => {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title fs-5" id="exampleModalLabel">
-                Login
+                Create Account
               </h5>
               <button
                 type="button"
@@ -45,7 +45,7 @@ const Signup = () => {
               <form>
                 <div className="mb-3">
                   <label htmlFor="exampleInput" 
-                  className="form-label">Username</label>
+                  className="form-label">Full Name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -55,7 +55,7 @@ const Signup = () => {
                   </div>
                   <div className="mb-3">
                   <label htmlFor="exampleInputEmail1" className="form-label">
-                    Email address
+                    Email Address
                   </label>
                   <input
                     type="email"
@@ -79,7 +79,7 @@ const Signup = () => {
                     required
                   />
                 </div>
-                <div className="mb-3 form-check">
+                {/* <div className="mb-3 form-check">
                   <input
                     type="checkbox"
                     className="form-check-input"
@@ -88,7 +88,7 @@ const Signup = () => {
                   <label className="form-check-label" htmlFor="exampleCheck1">
                     Check me out
                   </label>
-                </div>
+                </div> */}
                 <button
                   type="submit"
                   className="btn btn-outline-primary w-100 mt-5"
