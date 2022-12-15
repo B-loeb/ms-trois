@@ -91,8 +91,7 @@ const Signup = () => {
                 </div> */}
                 <button
                   type="submit"
-                  className="btn btn-outline-primary w-100 mt-5"
-                >
+                  className="btn btn-outline-primary w-100 mt-5">
                   Register
                 </button>
               </form>

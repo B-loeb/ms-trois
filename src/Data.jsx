@@ -11,7 +11,14 @@ const DATA= [
         title : "Wedding Events",
         price : 400,
         desc : "Professional wedding photoshoot and/or capture large outdoor weddings live from interesting aerial views that will provide unique memories. This package can be tailored to fit individual needs",
-        img : "/assets/images/products/img9.jpg"
+        img : "/assets/images/products/img13.jpg"
+    },
+    {
+        id : 2,
+        title : "Other Options",
+        price : 50,
+        desc : "This option is meant to cover additional services that may not be listed such as a personal photoshoot or anything withing our capabilities. 50$ per drone battery used, batteries will record for an average of 30 minutes",
+        img : "/assets/images/products/img3.jpg"
     }
 ]
 export default DATA
