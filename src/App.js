@@ -9,11 +9,13 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import ServiceDetail from './components/ServiceDetail';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
-
+//styled components
+import { StyledContainer } from './components/Styles';
 
 function App() {
   return (
     <>
+      <StyledContainer>
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -26,6 +28,7 @@ function App() {
         <Redirect to="/" />
       </Switch>
       <Footer />
+      </StyledContainer>
     </>
   );
 }
