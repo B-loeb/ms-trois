@@ -47,8 +47,8 @@ const Header = () => {
           <NavLink className="navbar-brand mx-auto fw-bold" to="/">
             Sentry Sights
           </NavLink>
-          <Login />
-          <Signup />
+          <Login to="/login" />
+          <Signup to="/signup" />
           <CartBtn />
           </div>
         </div>

@@ -35,13 +35,13 @@ const Signup = () => {
               ></button>
             </div>
             <div className="modal-body">
-              <button className="btn btn-primary w-100 mb-4">
+              {/* <button className="btn btn-primary w-100 mb-4">
                 <span className="fa fa-google me-2"></span> Sign up with Google
               </button>
               <button className="btn btn-primary w-100 mb-4">
                 <span className="fa fa-facebook me-2"></span> Sign up with
                 Facebook
-              </button>
+              </button> */}
               <form>
                 <div className="mb-3">
                   <label htmlFor="exampleInput" 
@@ -79,16 +79,6 @@ const Signup = () => {
                     required
                   />
                 </div>
-                {/* <div className="mb-3 form-check">
-                  <input
-                    type="checkbox"
-                    className="form-check-input"
-                    id="exampleCheck1"
-                  />
-                  <label className="form-check-label" htmlFor="exampleCheck1">
-                    Check me out
-                  </label>
-                </div> */}
                 <button
                   type="submit"
                   className="btn btn-outline-primary w-100 mt-5">
