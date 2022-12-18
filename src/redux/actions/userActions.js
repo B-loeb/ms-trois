@@ -33,7 +33,7 @@ export const loginUser = (credentials, history, setFieldError, setSubmitting) =>
 
             sessionService.saveSession(token).then(() => {
                 sessionService.saveUser(userData).then(() => {
-                    history.push("/");
+                    history.push("/Dash");
                 }).catch(err => console.log(err));
             }).catch(err => console.log(err));
         }
@@ -48,7 +48,7 @@ export const loginUser = (credentials, history, setFieldError, setSubmitting) =>
 export const signupUser = (credentials, history, setFieldError, setSubmitting) => async => {
 
         return (dispatch) => {
-    axios.post("https://fathomless-thicket-88699.herokuapp.com/user/login", 
+    axios.post("https://fathomless-thicket-88699.herokuapp.com/user/signup", 
     credentials,
     {
         headers: {
@@ -83,6 +83,10 @@ export const signupUser = (credentials, history, setFieldError, setSubmitting) =
     }).catch(err => console.error(err));
 }
 };      
-export const logoutUser = () => async dispatch => {
-
+export const logoutUser = (history) => async dispatch => {
+        return () => {
+         sessionService.deleteSession();
+            sessionService.deleteUser();
+            history.push("/");
+        }
 };
