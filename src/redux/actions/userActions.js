@@ -1,7 +1,10 @@
 import axios from "axios";
 import {sessionService} from "redux-react-session";
+
 export const loginUser = (credentials, history, setFieldError, setSubmitting) => async dispatch => {
    //make checks for email and password
+    return () => {
+
     axios.post("https://fathomless-thicket-88699.herokuapp.com/user/login", 
     credentials,
     {
@@ -36,13 +39,50 @@ export const loginUser = (credentials, history, setFieldError, setSubmitting) =>
         }
         //complete login process
         setSubmitting(false);
-    }
+        }
     }).catch(err => console.error(err));
+
+    }
 }
 
-export const signupUser = (credentials, history, setFieldError, setSubmitting) => async dispatch => {
-   
+export const signupUser = (credentials, history, setFieldError, setSubmitting) => async => {
+
+        return (dispatch) => {
+    axios.post("https://fathomless-thicket-88699.herokuapp.com/user/login", 
+    credentials,
+    {
+        headers: {
+            "Content-Type": "application/json"
+        }
+    }
+    ).then((response) => {
+        const {data} = response;
+
+        if (data.status === "FAILED") {
+            const {message} = data;
+
+            //check for error message
+           if (message.includes("name")) {
+                setFieldError("name", message);
+            }else if (message.includes("email")) {
+                setFieldError("email", message);
+            }else if (message.includes("password")) {
+                setFieldError("password", message);
+            }
+            //complete submission
+            setSubmitting(false);
+        }
+        else if (data.status === "SUCCESS") {
+            //login user after signup
+            const {email, password} = credentials;
+
+            dispatch(
+                loginUser({email, password}, history, setFieldError, setSubmitting)
+            );   
+        }
+    }).catch(err => console.error(err));
 }
+};      
 export const logoutUser = () => async dispatch => {
- 
-}
+
+};
